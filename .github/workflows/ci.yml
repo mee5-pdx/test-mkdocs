@@ -11,10 +11,10 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 
 jobs:
-
   # build mkdocs, credit to https://thomasthornton.cloud/2024/05/01/deploying-mkdocs-to-github-pages-with-github-actions/
   build:
     runs-on: ubuntu-latest
